@@ -1,65 +1,60 @@
-# 🛍️ PUKY BUTIK - Modern E-Ticaret Web Uygulaması
+# PUKY BUTIK - E-Ticaret Web Uygulaması
 
-![Puky Butik](https://img.shields.io/badge/Puky-Butik-f3500a?style=for-the-badge)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+## Proje Hakkında
 
-## 📖 Proje Hakkında
+Bu proje, ISE-201 Web Teknolojileri dersi kapsamında geliştirilmiş bir e-ticaret web uygulamasıdır. Uygulama tamamen istemci taraflı çalışmakta olup, herhangi bir sunucu tarafı teknolojisi kullanılmamıştır.
 
-Puky Butik, modern web teknolojileri kullanılarak geliştirilmiş, tamamen istemci taraflı (client-side) çalışan bir e-ticaret web uygulamasıdır. Bu proje, ISE-201 Web Teknolojileri dersi kapsamında hazırlanmıştır.
+### Proje Amacı
 
-### 🎯 Proje Amacı
+Proje kapsamında HTML5, CSS3 ve modern JavaScript (ES6+) kullanarak dinamik bir web uygulaması geliştirilmiştir. Uygulama, fetch API ile veri yönetimi ve localStorage ile kalıcı veri saklama özelliklerini içermektedir.
 
-Bu proje, modern istemci tarafı web teknolojilerini kullanarak sıfırdan interaktif bir web uygulaması geliştirmeyi amaçlar. Uygulama, HTML5, CSS3 ve modern JavaScript (ES6+) kullanarak dinamik arayüzler oluşturur, fetch API'si ile yerel JSON dosyasından veri çeker ve localStorage kullanarak kullanıcı verilerini yönetir.
+## Ana Özellikler
 
-## ✨ Özellikler
+### E-Ticaret İşlevleri
+- 12 adet ürün içeren katalog sistemi
+- Modal yapısı ile ürün detay görüntüleme
+- Sepet yönetimi (ekleme, çıkarma, miktar güncelleme)
+- Favori ürünler sistemi (localStorage ile kalıcı)
 
-### 🛒 E-Ticaret Özellikleri
-- **Ürün Kataloğu**: 12 adet butik ürün grid görünümünde
-- **Ürün Detayı**: Modal ile dinamik ürün detay sayfası (SPA mantığı)
-- **Sepet Sistemi**: Ürün ekleme, çıkarma, miktar güncelleme
-- **Favoriler**: localStorage ile kalıcı favori ürün yönetimi
+### Filtreleme ve Arama
+- Gerçek zamanlı ürün arama
+- Kategori bazlı filtreleme (Kadın, Erkek, Aksesuar)
+- Fiyat aralığına göre filtreleme
 
-### 🔍 Filtreleme ve Arama
-- **Canlı Arama**: Gerçek zamanlı ürün arama
-- **Kategori Filtresi**: Kadın, Erkek, Aksesuar
-- **Fiyat Filtresi**: Fiyat aralıklarına göre filtreleme
+### Tasarım Özellikleri
+- Responsive tasarım (mobil, tablet, desktop)
+- Flexbox ve CSS Grid layout kullanımı
+- Animasyon ve geçiş efektleri
+- Özel renk paleti (#f3500a, #d92200, #f37100)
 
-### 📱 Responsive Tasarım
-- Mobil, tablet ve desktop uyumlu
-- Hamburger menü (mobil cihazlarda)
-- Esnek grid yapısı
+## Kullanılan Teknolojiler
 
-### 🎨 Modern UI/UX
-- Özel renk paleti (#f3500a, #d92200, #f37100, #ffffff)
-- Smooth animasyonlar ve geçişler
-- Hover efektleri
-- Gradient arka planlar
+### HTML5
+Projede semantic HTML5 etiketleri kullanılmıştır:
+- `<header>`, `<nav>`, `<main>`, `<article>`, `<section>`, `<aside>`, `<footer>`
+- Form elementleri ve doğrulama özellikleri
 
-## 🛠️ Kullanılan Teknolojiler
+### CSS3
+- Flexbox ve Grid Layout sistemleri
+- CSS Variables (özel özellikler)
+- Media Queries ile responsive tasarım
+- Animasyonlar ve transition efektleri
+- Gradient ve shadow kullanımı
 
-### Frontend
-- **HTML5**: Semantic etiketler (`<header>`, `<nav>`, `<main>`, `<article>`, `<section>`, `<aside>`, `<footer>`)
-- **CSS3**: 
-  - Flexbox & Grid Layout
-  - CSS Variables (Custom Properties)
-  - Media Queries (Responsive Design)
-  - Animasyonlar ve Transitions
-  - Gradient efektleri
-- **JavaScript ES6+**:
-  - `const` ve `let` (var kullanılmadı)
-  - Arrow Functions (`=>`)
-  - `async/await` ve Promises
-  - Template Literals
-  - Spread Operator
-  - Array Methods (map, filter, reduce)
-  - Destructuring
+### JavaScript (ES6+)
+Projede modern JavaScript özellikleri kullanılmıştır:
+- const ve let değişken tanımlamaları
+- Arrow function yapısı
+- async/await ile asenkron programlama
+- Template literals
+- Spread operator
+- Array metodları (map, filter, reduce)
+- Destructuring
 
 ### Web API'leri
-- **Fetch API**: JSON verilerini asenkron olarak yükleme
-- **localStorage**: Sepet ve favori verilerini tarayıcıda saklama
-- **DOM Manipulation**: Dinamik içerik oluşturma
+- Fetch API: JSON dosyasından veri çekme
+- localStorage: Tarayıcıda veri saklama
+- DOM API: Dinamik içerik yönetimi
 
 ### Proje Yapısı
 ```
@@ -79,220 +74,154 @@ web-tekno/
 └── README.md              # Proje dokümantasyonu
 ```
 
-## 🚀 Kurulum ve Çalıştırma
+## Kurulum ve Çalıştırma
 
 ### Gereksinimler
-- Modern bir web tarayıcısı (Chrome, Firefox, Safari, Edge)
-- Yerel sunucu (Live Server, Python HTTP Server vb.) veya GitHub Pages
+- Modern web tarayıcısı (Chrome, Firefox, Safari, Edge)
+- Yerel sunucu (Live Server, Python HTTP Server vb.)
 
-### Yerel Olarak Çalıştırma
+### Yerel Çalıştırma
 
-1. **Projeyi klonlayın:**
+Projeyi klonlayın:
 ```bash
-git clone https://github.com/[kullanici-adi]/web-tekno.git
-cd web-tekno
+git clone https://github.com/SauWebProgramming/web-tech-project-furkanakturk1-eng.git
+cd web-tech-project-furkanakturk1-eng
 ```
 
-2. **Yerel sunucu başlatın:**
+Yerel sunucu başlatın:
 
-**VS Code Live Server ile:**
-- VS Code'da projeyi açın
-- `index.html` dosyasına sağ tıklayın
+VS Code Live Server ile:
+- Projeyi VS Code'da açın
+- index.html dosyasına sağ tıklayın
 - "Open with Live Server" seçeneğini seçin
 
-**Python ile:**
+veya Python ile:
 ```bash
 python -m http.server 8000
 ```
-Tarayıcıda `http://localhost:8000` adresini açın.
 
-**Node.js http-server ile:**
-```bash
-npx http-server
-```
-
-3. **Tarayıcıda açın:**
+Tarayıcıda açın:
 ```
 http://localhost:8000
 ```
 
-### GitHub Pages ile Yayınlama
+## Teknik Gereksinimler
 
-1. Repository'yi GitHub'a push edin
-2. Repository Settings > Pages
-3. Source: `main` branch seçin
-4. Save butonuna tıklayın
-5. Siteniz `https://[kullanici-adi].github.io/web-tekno/` adresinde yayında!
+Proje aşağıdaki gereksinimleri karşılamaktadır:
 
-## 📝 Ödev Gereksinimleri
+- Tamamen statik HTML, CSS ve JavaScript kullanımı
+- Semantic HTML5 etiketleri
+- HTML, CSS ve JS dosyalarının ayrı tutulması
+- Yerel JSON dosyası ve localStorage ile veri yönetimi
+- Responsive tasarım (mobil, tablet, desktop)
+- Flexbox ve Grid layout kullanımı
+- Modern JavaScript özellikleri (ES6+)
+- fetch API ile asenkron veri yükleme
+- localStorage ile kalıcı veri saklama
 
-### ✅ Karşılanan Teknik Gereksinimler
+## Uygulanan Özellikler
 
-- [x] **Platform**: Tamamen statik HTML, CSS ve JavaScript
-- [x] **Semantic HTML5**: `<header>`, `<nav>`, `<main>`, `<article>`, `<section>`, `<aside>`, `<footer>`
-- [x] **Mimari**: HTML/CSS/JS dosyaları net bir şekilde ayrılmış (inline style/script yok)
-- [x] **Veri Yönetimi**: Yerel JSON dosyası + localStorage
-- [x] **Responsive Design**: Mobil, tablet ve masaüstü uyumlu
-- [x] **CSS Layout**: Flexbox ve Grid kullanımı
-- [x] **Modern JavaScript**: ES6+ özellikleri (const, let, arrow functions, async/await)
-- [x] **fetch API**: Asenkron veri yükleme
-- [x] **localStorage**: Sepet ve favori verilerinin kalıcı saklanması
+### Temel İşlevler
+- Grid görünümde ürün listeleme
+- Ürün arama ve filtreleme sistemi
+- Modal yapısı ile ürün detay görüntüleme
+- localStorage ile favori ürün yönetimi
+- Sepet sistemi ve miktar kontrolü
 
-### 🎯 Uygulanan Özellikler
+### Ek Özellikler
+- Mobil cihazlar için hamburger menü
+- Animasyon ve geçiş efektleri
+- Bildirim sistemi
+- Dinamik badge gösterimi
+- Sayfa yenilenmeden içerik güncelleme
 
-#### SPA (Single Page Application) Özellikleri
-- ✅ Liste/Grid görünümü
-- ✅ Arama ve filtreleme
-- ✅ Dinamik detay sayfası (modal - sayfa yenilenmeden)
-- ✅ Favoriler sistemi (localStorage)
-- ✅ Sepet sistemi (localStorage)
+## Kod Yapısı
 
-#### Ek Özellikler
-- ✅ Responsive hamburger menü
-- ✅ Smooth animasyonlar
-- ✅ Bildirim sistemi
-- ✅ Badge sistemleri (sepet ve favori sayacı)
-- ✅ Miktar kontrolü (+ / - butonları)
-
-## 💻 Kod Yapısı
+Proje modüler bir yapıda organize edilmiştir:
 
 ### JavaScript Modülleri
 
-#### 1. **app.js** - Ana Uygulama
-```javascript
-// Uygulamayı başlatır
-// Modal ve mobil menü event listener'larını ayarlar
-```
+**app.js**: Uygulamanın başlangıç noktası. Modal ve menü işlemlerini yönetir.
 
-#### 2. **products.js** - Ürün Yönetimi
-```javascript
-// fetch API ile ürünleri yükler
-// Ürün kartlarını render eder
-// Ürün detay modalını yönetir
-```
+**products.js**: Ürün verilerinin yüklenmesi ve görüntülenmesi. fetch API kullanarak JSON dosyasından veri çeker.
 
-#### 3. **cart.js** - Sepet Yönetimi
-```javascript
-// Sepete ürün ekleme/çıkarma
-// Miktar güncelleme
-// localStorage ile kalıcılık
-```
+**cart.js**: Sepet işlemlerini yönetir. Ürün ekleme, çıkarma ve miktar güncelleme işlemlerini gerçekleştirir.
 
-#### 4. **favorites.js** - Favori Yönetimi
-```javascript
-// Favorilere ekleme/çıkarma
-// localStorage ile kalıcılık
-// UI güncelleme
-```
+**favorites.js**: Favori ürünlerin yönetimi. localStorage kullanarak verileri kalıcı hale getirir.
 
-#### 5. **filters.js** - Filtreleme
-```javascript
-// Canlı arama
-// Kategori filtresi
-// Fiyat aralığı filtresi
-```
+**filters.js**: Arama ve filtreleme işlevlerini içerir. Kategori ve fiyat bazlı filtreleme yapar.
 
-#### 6. **storage.js** - localStorage Yönetimi
-```javascript
-// Sepet ve favori verilerini yönetir
-// Get/Set/Clear işlemleri
-```
+**storage.js**: localStorage işlemlerini merkezi bir yapıda yönetir.
 
-## 🎨 Renk Paleti
+### Renk Paleti
 
+Projede tutarlı bir renk şeması kullanılmıştır:
 ```css
---primary-color: #f3500a;    /* Ana turuncu */
---primary-dark: #d92200;     /* Koyu turuncu */
---primary-light: #f37100;    /* Açık turuncu */
---white: #ffffff;            /* Beyaz */
+--primary-color: #f3500a;
+--primary-dark: #d92200;
+--primary-light: #f37100;
+--white: #ffffff;
 ```
 
-## 📱 Responsive Breakpoints
+### Responsive Tasarım
 
-```css
-/* Desktop: 1200px+ */
-/* Tablet: 768px - 1199px */
-/* Mobile: < 768px */
-```
+Proje üç farklı ekran boyutu için optimize edilmiştir:
+- Desktop: 1200px ve üzeri
+- Tablet: 768px - 1199px
+- Mobil: 768px altı
 
-## 🔧 JavaScript Özellikleri
+## JavaScript Özellikleri
 
-### ES6+ Kullanımı
+Projede modern JavaScript özellikleri kullanılmıştır:
+
+### Arrow Functions
 ```javascript
-// Arrow Functions
-const addToCart = (productId) => { ... }
+const addToCart = (productId) => {
+    // Sepete ekleme işlemi
+}
+```
 
-// async/await
+### Asenkron Programlama
+```javascript
 const loadProducts = async () => {
     const response = await fetch('data/products.json');
     const data = await response.json();
+    return data.products;
 }
-
-// Template Literals
-`<div class="product">${product.name}</div>`
-
-// Destructuring
-const { id, name, price } = product;
-
-// Spread Operator
-const newArray = [...oldArray];
-
-// Array Methods
-products.filter(p => p.price > 500)
-       .map(p => p.name)
-       .reduce((sum, price) => sum + price, 0)
 ```
 
-## 🌟 Bonus Özellikler
+### Template Literals
+```javascript
+const productCard = `<div class="product">${product.name}</div>`;
+```
 
-- ✅ Gelişmiş CSS animasyonları (fadeIn, slideUp, hover efektleri)
-- ✅ Custom notification sistemi
-- ✅ Smooth scroll
-- ✅ Gradient arka planlar
-- ✅ Shadow efektleri
-- ✅ Backdrop blur efektleri
-- ✅ Responsive images (lazy loading)
+### Array Metodları
+```javascript
+const filteredProducts = products
+    .filter(p => p.price > 500)
+    .map(p => p.name);
+```
 
-## 📊 Performans Optimizasyonları
+## Performans
 
-- Lazy loading için `loading="lazy"` attribute kullanımı
-- CSS animasyonlarda `transform` ve `opacity` kullanımı (GPU hızlandırma)
-- Event delegation kullanımı
-- LocalStorage ile veri kalıcılığı
+Projede performans için bazı optimizasyonlar yapılmıştır:
+- Görseller için lazy loading kullanımı
+- CSS animasyonlarında transform ve opacity tercih edilmesi
+- Event delegation ile etkin event yönetimi
+- localStorage ile veri kalıcılığı
 
-## 🐛 Hata Yönetimi
+## Geliştirme Süreci
 
-- try-catch blokları ile error handling
-- Console'da detaylı hata mesajları
-- Kullanıcı dostu bildirimler
+Proje geliştirilirken şu konular üzerinde çalışılmıştır:
+- Semantic HTML ile yapılandırılmış içerik oluşturma
+- CSS Grid ve Flexbox ile modern layout tasarımı
+- Responsive design ve media queries kullanımı
+- Modern JavaScript (ES6+) özellikleri
+- Asenkron programlama ve Promise yapısı
+- Web API'leri (fetch, localStorage, DOM)
+- Sayfa yenilenmeden içerik güncelleme
+- Git ile versiyon kontrolü
 
-## 📚 Öğrenilen Konular
+## Lisans
 
-1. **HTML5 Semantic Tags**: Anlamsal etiketlerle yapılandırılmış içerik
-2. **CSS Grid & Flexbox**: Modern layout teknikleri
-3. **Responsive Design**: Media queries ve mobile-first yaklaşım
-4. **JavaScript ES6+**: Modern JavaScript özellikleri
-5. **Async Programming**: Promises ve async/await
-6. **Web APIs**: fetch, localStorage, DOM API
-7. **SPA Mantığı**: Sayfa yenilenmeden dinamik içerik güncelleme
-8. **State Management**: Uygulama durumu yönetimi
-9. **Event Handling**: Kullanıcı etkileşimleri
-10. **Git & GitHub**: Versiyon kontrolü
-
-## 👨‍💻 Geliştirici
-
-**[Adınız Soyadınız]**
-- Öğrenci No: [Öğrenci Numaranız]
-- Email: [Email Adresiniz]
-
-## 📄 Lisans
-
-Bu proje eğitim amaçlı hazırlanmıştır.
-
-## 🙏 Teşekkürler
-
-ISE-201 Web Teknolojileri dersi kapsamında bu projeyi geliştirme fırsatı verdiği için hocama teşekkür ederim.
-
----
-
-⭐ **Puky Butik** - Modern moda ve stil deneyimi!
+Bu proje ISE-201 Web Teknolojileri dersi kapsamında eğitim amaçlı hazırlanmıştır.

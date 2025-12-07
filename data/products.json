@@ -1,0 +1,136 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Zarif Elbise",
+      "category": "kadin",
+      "price": 899,
+      "description": "Özel günleriniz için tasarlanmış zarif ve şık bir elbise. Premium kumaş kalitesi ile rahatlığı ve şıklığı bir arada sunar.",
+      "image": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=500&h=600&fit=crop",
+      "sizes": ["S", "M", "L", "XL"],
+      "colors": ["Kırmızı", "Siyah", "Beyaz"],
+      "badge": "Yeni"
+    },
+    {
+      "id": 2,
+      "name": "Pamuklu Bluz",
+      "category": "kadin",
+      "price": 449,
+      "description": "Günlük kullanım için ideal pamuklu bluz. Rahat kesimi ve nefes alabilir kumaşı ile her mevsim kullanabilirsiniz.",
+      "image": "https://images.unsplash.com/photo-1564859228273-274232fdb516?w=500&h=600&fit=crop",
+      "sizes": ["S", "M", "L"],
+      "colors": ["Beyaz", "Mavi", "Pembe"],
+      "badge": null
+    },
+    {
+      "id": 3,
+      "name": "Klasik Pantolon",
+      "category": "kadin",
+      "price": 649,
+      "description": "Hem iş hem de günlük yaşam için mükemmel klasik pantolon. Modern kesimi ile her kombinle uyum sağlar.",
+      "image": "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?w=500&h=600&fit=crop",
+      "sizes": ["S", "M", "L", "XL"],
+      "colors": ["Siyah", "Kahverengi", "Lacivert"],
+      "badge": "İndirim"
+    },
+    {
+      "id": 4,
+      "name": "Deri Çanta",
+      "category": "aksesuar",
+      "price": 1299,
+      "description": "El yapımı gerçek deri çanta. Geniş iç hacmi ve şık tasarımı ile günlük kullanıma uygun.",
+      "image": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=500&h=600&fit=crop",
+      "sizes": ["Standart"],
+      "colors": ["Kahverengi", "Siyah", "Bej"],
+      "badge": "Yeni"
+    },
+    {
+      "id": 5,
+      "name": "Erkek Gömlek",
+      "category": "erkek",
+      "price": 549,
+      "description": "İş hayatı için ideal modern erkek gömleği. Ütü gerektirmeyen kumaşı ile pratik kullanım sunar.",
+      "image": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=500&h=600&fit=crop",
+      "sizes": ["M", "L", "XL", "XXL"],
+      "colors": ["Beyaz", "Mavi", "Gri"],
+      "badge": null
+    },
+    {
+      "id": 6,
+      "name": "Spor Ceket",
+      "category": "erkek",
+      "price": 1499,
+      "description": "Şık ve rahat spor ceket. Su geçirmez kumaşı ve modern tasarımı ile her mevsim kullanılabilir.",
+      "image": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=500&h=600&fit=crop",
+      "sizes": ["M", "L", "XL", "XXL"],
+      "colors": ["Lacivert", "Siyah", "Gri"],
+      "badge": "Popüler"
+    },
+    {
+      "id": 7,
+      "name": "Ayakkabı - Spor",
+      "category": "aksesuar",
+      "price": 799,
+      "description": "Rahat ve şık spor ayakkabı. Hafif yapısı ve ortopedik tabanı ile konforlu kullanım.",
+      "image": "https://images.unsplash.com/photo-1460353581641-37baddab0fa2?w=500&h=600&fit=crop",
+      "sizes": ["38", "39", "40", "41", "42", "43"],
+      "colors": ["Beyaz", "Siyah", "Gri"],
+      "badge": "İndirim"
+    },
+    {
+      "id": 8,
+      "name": "Mini Etek",
+      "category": "kadin",
+      "price": 399,
+      "description": "Yaz ayları için ideal mini etek. Hafif ve rahat kumaşı ile günlük kullanıma uygundur.",
+      "image": "https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?w=500&h=600&fit=crop",
+      "sizes": ["S", "M", "L"],
+      "colors": ["Kırmızı", "Siyah", "Beyaz"],
+      "badge": null
+    },
+    {
+      "id": 9,
+      "name": "Polo Tişört",
+      "category": "erkek",
+      "price": 349,
+      "description": "Klasik polo tişört. %100 pamuklu kumaşı ile yaz aylarında rahat kullanım sağlar.",
+      "image": "https://images.unsplash.com/photo-1586790170083-2f9ceadc732d?w=500&h=600&fit=crop",
+      "sizes": ["M", "L", "XL", "XXL"],
+      "colors": ["Lacivert", "Beyaz", "Bordo"],
+      "badge": "Yeni"
+    },
+    {
+      "id": 10,
+      "name": "Güneş Gözlüğü",
+      "category": "aksesuar",
+      "price": 599,
+      "description": "UV korumalı polarize camlı güneş gözlüğü. Modern tasarımı ile her yüz şekline uyum sağlar.",
+      "image": "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=500&h=600&fit=crop",
+      "sizes": ["Standart"],
+      "colors": ["Siyah", "Kahverengi", "Altın"],
+      "badge": "Popüler"
+    },
+    {
+      "id": 11,
+      "name": "Jean Pantolon",
+      "category": "erkek",
+      "price": 749,
+      "description": "Klasik kesim jean pantolon. Dayanıklı kot kumaşı ve rahat kalıbı ile uzun ömürlü kullanım.",
+      "image": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=500&h=600&fit=crop",
+      "sizes": ["30", "32", "34", "36", "38"],
+      "colors": ["Mavi", "Siyah", "Gri"],
+      "badge": null
+    },
+    {
+      "id": 12,
+      "name": "Takı Seti",
+      "category": "aksesuar",
+      "price": 1899,
+      "description": "Gümüş kaplama kolye ve küpe seti. Özel günleriniz için şık bir aksesuar seçeneği.",
+      "image": "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=500&h=600&fit=crop",
+      "sizes": ["Standart"],
+      "colors": ["Gümüş", "Altın", "Rose"],
+      "badge": "Yeni"
+    }
+  ]
+}
